@@ -70,5 +70,6 @@ if st.button("Generate Password"):
     # Show warning for passwords below 12 characters
     if password_length < 12:
         st.warning("⚠️ You can copy the password at your own risk.")
-
+    else:
+        st.success("✅ Your password is secure.")
 
